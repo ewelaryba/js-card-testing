@@ -8,7 +8,7 @@ exports.Dealer = function () {
 
     };
     constructor.prototype.deal = function (player) {
-        var randomIndex = Math.floor(Math.random() * this.deck.cards.length) + 1;
+        var randomIndex = Math.floor(Math.random() * this.deck.cards.length);
         var randomCard = this.deck.cards[randomIndex];
         player.hand.push(randomCard);
         this.deck.cards.splice(randomIndex, 1);

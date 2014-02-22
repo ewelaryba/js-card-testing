@@ -1,3 +1,5 @@
+/*jshint expr: true*/
+
 var expect = require('chai').expect,
     Deck = require('../deck').Deck;
  Card = require('../card').Card;

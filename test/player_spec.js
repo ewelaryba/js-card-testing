@@ -1,8 +1,8 @@
+/*jshint expr: true*/
+
 var expect = require('chai').expect,
    Card = require('../card').Card,
-//    Deck = require('../deck').Deck,
-//    Dealer = require('../dealer').Dealer;
-Player = require('../player').Player;
+   Player = require('../player').Player;
 
 describe('Players', function () {
         'use strict';

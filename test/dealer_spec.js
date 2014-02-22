@@ -1,3 +1,5 @@
+/*jshint expr: true*/
+
 var expect = require('chai').expect,
     Card = require('../card').Card,
     Player = require('../player').Player,
