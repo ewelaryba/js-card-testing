@@ -6,12 +6,12 @@ module.exports = function (grunt) {
 
             },
             all: {
-                src: ['test/**/*.js']
+                src: ['test/dealer_spec.js']
             }
         },
 
         jshint: {
-            all: ['Gruntfile.js', 'test/book_spec.js','card.js'],
+            all: ['Gruntfile.js'],
             options: {
                 globals: {
                     jQuery: true,
