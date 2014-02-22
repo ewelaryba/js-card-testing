@@ -20,7 +20,10 @@ exports.Deck = function () {
 
             for (j = 0; j < 13; j++) {
                 var rank = "";
-                if (j < 10) {
+                if (j===0){
+                    rank = "ace";
+                }
+                if (j < 10 && j>1) {
                     rank = (j + 1).toString();
                 }
                 if (j == 10) {
